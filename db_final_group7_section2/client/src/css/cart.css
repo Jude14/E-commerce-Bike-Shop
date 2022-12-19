@@ -1,0 +1,168 @@
+.trashcan  {
+  margin-top: 10%;
+  width:20px;
+  height:20px;
+  margin-bottom: -0.3rem !important;
+}
+
+.trashbtn{
+  margin-bottom: 0.5rem;
+  border-radius: 50%;
+  background-color: lightgray;
+
+}
+
+/*for button + -*/
+  .splitButton {
+    background: #8990ec;
+    place-items: center;
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 50%;
+    padding: 0;
+    margin: 10px;
+  }
+  .buttonText {
+    margin-bottom:2px !important;
+    color: #353959 !important;
+  }
+  .qtyAmount{
+    margin-right: 5px;
+    margin-left: 0px;
+  }
+  /*********************/
+
+.emptyCart{
+ text-align: center;
+ margin-top: 6rem;
+ font-size:50px;
+}
+.cart{
+ 
+ align-content: center !important;
+}
+
+.cartitem{
+ text-align: center !important;
+ background-color: white !important;
+ align-content: center;
+ border-radius: 1rem;
+ padding:1rem 2rem;
+ width:390px;
+ height:395px;
+ margin-top: 1.5rem;
+ margin-left: 37%;
+ margin-bottom: 1.5rem!important;
+}
+.totaldesign{
+
+ margin-left: 43%;
+
+}
+.orderbtn{
+ text-align: center !important;
+ align-content: center !important;
+ margin-bottom: 4rem;
+ margin-left: 43%;
+ width: 200px;
+ font-size: larger;
+}
+.tocenter{
+   margin-left: 7rem;
+
+}
+.buttonContainer{
+  margin-bottom: 3rem;;
+}
+/*********************** switch buton below*/
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: gray;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px gray;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.deliverylocation{
+  margin-top: 3rem;
+  text-align: center;
+  align-content: center;
+  margin: 1rem;
+}
+.deliverytext{
+  color:black;
+  font-weight: 700;
+
+}
+
+.radio{
+  width:20px;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+}
+.smal{
+  width:180px;
+}
+.larger{
+  margin-left: -1rem;
+  text-align: center !important;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 4.3rem;
+  padding-left: 4.1rem;
+}

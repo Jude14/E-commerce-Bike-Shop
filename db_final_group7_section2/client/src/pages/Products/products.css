@@ -1,0 +1,119 @@
+*{
+ margin:0;
+ padding:0;
+ box-sizing: border-box;
+}
+body{
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ background:#f1f5f8;
+
+ color:#222
+}
+
+
+
+.itemsList{
+ width: 90vw;
+ max-width: 1170px;
+ margin: 5rem auto;
+ display: grid;
+ gap:2rem;
+}
+
+button{
+ margin-right: 1em;
+ border-radius: .5rem;
+ background-color:#8990ec;
+ color:#222;
+ border:none;
+ padding: .8rem;
+}
+
+img{
+ width:300px;
+ height:200px;
+ object-fit: cover;
+ border-radius: .5rem;
+}
+
+
+@media screen and (min-width:768px){
+ .itemsList{
+  grid-template-columns: repeat(3,1fr);
+  align-items: start; 
+ }
+}
+.item{
+ background: #fff;
+ border-radius: 1rem;
+ padding:1rem 2rem;
+ width:390px;
+ height:395px;
+}
+.item h2{
+ margin-top: .75rem;
+}
+
+.item h3{
+  margin-top:.3rem;
+}
+.item button{
+  margin-top:.5rem;
+  margin-bottom:1rem;
+  margin-right:1rem;
+  
+}
+.productitem button{
+  width:120px;
+}
+.item h4{
+ color: #617d98;
+ font-size:0.75rem;
+ margin-top: 0.65rem;
+}
+.item p{
+ margin-top: 0.5rem;
+}
+.category{
+ margin-left: 4.3em;
+ font-size: 2.6rem;
+}
+ .SignIn{
+text-align: center;
+display: flex;
+min-height: 100vh;
+align-items: center;
+justify-content: center;
+color: white;
+background-image: linear-gradient(79deg, #6729d0, #484ca1 48%, #fdfdfd);
+}
+
+.auth-form-container, .login-form, .register-form {
+display: flex;
+flex-direction: column;
+}
+
+
+.auth-form-container {
+  padding: 5rem;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 0.5rem;
+}
+.discountedprice{
+  color:gray;
+  font-size:1rem;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    margin:0;
+    padding-right:0.55em;
+}  
+
+.flex-child:first-child {
+    margin-right: 0px;
+}
